@@ -11,11 +11,11 @@ h1 {
 div {
     width: 90%;
     margin: 0 auto; /*Keskitetään div leveyssuunnassa*/
-    background-color:white;
+    background-color:whitesmoke;
     padding: 1em;
 }
 a {
-    text-decoration: dashed;
+    text-decoration: none;
     color:#A0D568;
 }
 a:hover {
