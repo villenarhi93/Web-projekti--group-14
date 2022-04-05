@@ -6,7 +6,7 @@ div {
     width: 90%;
     margin: 0 auto; /*Keskitetään div leveyssuunnassa*/
     background-color:white;
-    padding: 2em;
+    padding: 1em;
 }
 h1 {
     font-weight: bolder;
