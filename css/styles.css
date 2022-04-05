@@ -3,13 +3,14 @@ html {
     color: #AC92EB;
 }
 div {
-    width: 90%;
-    margin: 20px; /*Keskitetään div leveyssuunnassa*/
+    width: 70%;
+    margin: 5px; /*Keskitetään div leveyssuunnassa*/
     background-color:white;
-    padding: 1em;
+    padding: 2em;
 }
 h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.em;
     text-transform: lowercase;
 }
