@@ -4,14 +4,14 @@ html {
 }
 div {
     width: 90%;
-    margin: 0 auto; /*Keskitetään div leveyssuunnassa*/
+    margin: 20px; /*Keskitetään div leveyssuunnassa*/
     background-color:white;
     padding: 1em;
 }
 h1 {
-    font-family: fantasy;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.em;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 
 
