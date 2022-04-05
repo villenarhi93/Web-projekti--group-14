@@ -1,17 +1,18 @@
 html {
     background-color: #4FC1E8;
 }
+h1 {
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2.em;
+    margin: 5px;
+    text-transform: none;
+}
 div {
     width: 90%;
     margin: 0 auto; /*Keskitetään div leveyssuunnassa*/
     background-color:white;
     padding: 1em;
-}
-h1 {
-    font-weight: bolder;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 2.em;
-    text-transform: none;
 }
 a:hover {
     font-weight: bold;
