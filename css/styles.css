@@ -2,6 +2,17 @@ html {
     background-color: #4FC1E8;
     color: #AC92EB;
 }
+div {
+    width: 90%;
+    margin: 0 auto; /*Keskitetään div leveyssuunnassa*/
+    background-color:white;
+    padding: 1em;
+}
+h1 {
+    font-family: fantasy;
+    font-size: 1.em;
+    text-transform: uppercase;
+}
 
 
 /* 
