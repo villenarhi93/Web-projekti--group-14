@@ -1,6 +1,5 @@
 html {
     background-color: #4FC1E8;
-    color: #AC92EB;
 }
 div {
     width: 90%;
@@ -13,10 +12,6 @@ h1 {
     font-family:'Courier New', Courier, monospace;
     font-size: 2.em;
     text-transform: none;
-}
-a {
-    text-decoration: none;
-    color:#A0D568;
 }
 a:hover {
     font-weight: bold;
