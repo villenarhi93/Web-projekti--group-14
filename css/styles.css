@@ -13,6 +13,15 @@ h1 {
     font-size: 1.em;
     text-transform: lowercase;
 }
+a {
+    text-decoration: none;
+    color:#A0D568;
+}
+a:hover {
+    font-weight: bold;
+    color: #4FC1E8;
+}
+
 
 
 /* 
