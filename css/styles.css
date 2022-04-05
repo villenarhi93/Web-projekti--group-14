@@ -9,10 +9,10 @@ div {
     padding: 2em;
 }
 h1 {
-    font-weight: bold;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
     font-size: 1.em;
-    text-transform: lowercase;
+    text-transform: uppercase;
 }
 a {
     text-decoration: none;
