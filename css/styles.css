@@ -4,7 +4,7 @@ html {
 }
 div {
     width: 70%;
-    margin: 5px; /*Keskitetään div leveyssuunnassa*/
+    margin: 0 auto; /*Keskitetään div leveyssuunnassa*/
     background-color:white;
     padding: 2em;
 }
