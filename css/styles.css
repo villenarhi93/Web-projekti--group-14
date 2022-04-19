@@ -22,6 +22,9 @@ a:hover {
     font-weight: bold;
     color: #A0D568;
 }
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
 
 
 
