@@ -30,7 +30,7 @@ p {
 }
 
 footer img {
-    text-align: right;
+    float: right;
     max-width: 50%;
     height: auto;
 }
