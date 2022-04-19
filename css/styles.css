@@ -21,6 +21,7 @@ div {
 a:hover {
     font-size: 10px;
     font-weight: bold;
+    color-adjust: #A0D568;
     color: #A0D568;
 }
 p {
