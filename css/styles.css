@@ -1,15 +1,16 @@
-body {
+html {
     background-color: #4FC1E8;
-    padding: 1%;
 }
+
 h1 {
     font-weight: bolder;
     font-family:'Courier New', Courier, monospace;
-    font-size: 5em;
+    font-size: 4.5em;
     margin: 15px;
     text-transform: none;
     text-align: center;
 }
+
 div {
     width: 100%;
     margin: auto; /*Keskitetään div leveyssuunnassa*/
@@ -18,12 +19,26 @@ div {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-a:hover {
-    font-size: 10px;
-    font-weight: bold;
-    color-adjust: #A0D568;
-    color: #A0D568;
+
+a:visited { /* linkin fontin väri */
+    color: #696969;
+
 }
+
+a:hover {
+    font-size: 17px;
+    font-weight: bolder;
+    color: #696969;
+}
+
+li a:hover {
+    background-color: #6cc0b8;
+}
+
+ul {
+    background-color: #9cd4cc;
+}
+
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
