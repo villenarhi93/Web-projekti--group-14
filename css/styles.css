@@ -28,7 +28,7 @@ p {
 }
 
 #logo img {
-    position: right;
+    object-position: right;  
     max-width: 50%;
     height: auto;
 }
