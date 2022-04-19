@@ -29,8 +29,8 @@ p {
     margin: auto;
 }
 
-#logo img {
-    object-position: right;  
+footer img {
+    text-align: right;
     max-width: 50%;
     height: auto;
 }
