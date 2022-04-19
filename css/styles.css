@@ -27,7 +27,7 @@ a:visited { /* linkin fontin väri */
 
 a:hover {
     color: #696969;
-    font-size: 17px;
+    font-size: 21px;
     font-weight: bolder;
 }
 
@@ -37,6 +37,7 @@ li a:hover { /* linkki hiiren päällä */
 
 ul {
     background-color: #9cd4cc;
+    font-size: 20px;
 }
 
 p {
