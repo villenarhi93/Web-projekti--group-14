@@ -30,6 +30,7 @@ p {
 }
 
 #logo img {
+    object-fit: none;
     object-position: right;  
     max-width: 50%;
     height: auto;
