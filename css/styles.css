@@ -4,7 +4,7 @@ html {
 h1 {
     font-weight: bolder;
     font-family:'Courier New', Courier, monospace;
-    font-size: larger;
+    font-size: 10em;
     margin: 15px;
     text-transform: none;
     text-align: center;
