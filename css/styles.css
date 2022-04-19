@@ -1,5 +1,7 @@
 html {
     background-color: #4FC1E8;
+    width: auto;
+    margin: auto;
 }
 h1 {
     font-weight: bolder;
