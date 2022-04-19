@@ -26,8 +26,10 @@ p {
     font-family: 'Courier New', Courier, monospace;
 }
 
-img {
+img.logo {
     position: right;
+    max-width: 50%;
+    height: auto;
 }
 
 
