@@ -33,7 +33,7 @@ a:hover {
     font-weight: bolder;
 }
 
-li a:hover { /* linkki hiiren päällä */
+li a:hover { /* palkki hiiren päällä */
     background-color: #6cc0b8;
 }
 
