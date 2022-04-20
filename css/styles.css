@@ -15,7 +15,7 @@ h1 {
 
 div {
     width: 100%;
-    margin: auto; /*Keskitetään div leveyssuunnassa*/
+    margin: auto; /* Keskitetään div leveyssuunnassa */
     background-color:whitesmoke;
     padding: 1em;
     font-size: 20px;
@@ -37,7 +37,7 @@ li a:hover { /* linkki hiiren päällä */
     background-color: #6cc0b8;
 }
 
-ul {
+ul { /* linkkien palkki */
     background-color: #9cd4cc;
     font-size: 20px;
 }
