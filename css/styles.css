@@ -3,6 +3,7 @@ html {
 }
 
 h1 {
+    background-color:aliceblue;
     font-weight: bolder;
     font-family:'Courier New', Courier, monospace;
     font-size: 5em;
