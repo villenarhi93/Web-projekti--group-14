@@ -23,6 +23,10 @@ div {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.nav-link:hover {
+    color: #4E4D50;
+}
+
 a:visited { /* linkin fontin väri */
     color: #4E4D50;
 
