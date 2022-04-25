@@ -29,7 +29,8 @@ function check() {
         score++;
     }
 
-
+    // Palaute käyttäjälle
+    
     if (score >= 5) {
         document.getElementById("result").innerHTML = "HIENOA!"
     }
