@@ -1,70 +1,91 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+    <!-- Vaadittavat meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
     <title>Tietovisat</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <script type="historia.js" src="historia.js"></script>
     </head>
   <body>
-  <!-- voiko tätä muokata t. iiro-->
-  <!-- Lisätään Header ja otsikko sen sisälle-->
-  <header><br>
-    <h1>Tietoja</h1>
 
-    <!-- Navbarin lisäys -->
+<h1>Historia</h1>
 
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Etusivu</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Biologia</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Historia</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="maantieto.html">Maantieto</a>
-          </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Matematiikka</a>
-          </li>
-        <li class="nav-item">
-          <a class="nav-link" href="tietoja.html">Tietoja</a>
-        </li>
-      </ul>
-    </header>
-
-        <!-- Tietoja sivun esittely -->
-
-        <div class="container">
-            <div class="row">
-              <div class="col-md-6">
-               Tekijät: Mika Alatalo, Iiro Mäntyniemi, Ville Närhi, Mia Nguyen
-                
-              </div>
-              <div class="col-md-6">
-                
-              </div>
-            </div>
-          </div>
+<ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="index.html">Etusivu</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Biologia</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="historia.html">Historia</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="maantieto.html">Maantieto</a>
+      </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Matematiikka</a>
+      </li>
+    <li class="nav-item">
+      <a class="nav-link" href="tietoja.html">Tietoja</a>
+    </li>
+  </ul>
+</header>
+  
+    <header>
+      <form name="quiz" id="quiz">
+        <div>
+            <p>1. Minä vuosina oli 1. maailman sota?</p>
+            <p><input type="radio" name="question1" value="1902-1907">A. 1902-1907</p>
+            <p><input type="radio" name="question1" value="1910-1914">B. 1910-1914</p>
+            <p><input type="radio" name="question1" value="1914-1918">C. 1914-1918</p>
+        </div>
     
-        <!-- Lisätään Footer elementti-->
+        <div>
+            <p>2. Milloin Suomi itsenäistyi?</p>
+            <p><input type="radio" name="question2" value="1923">A. Vuonna 1923</p>
+            <p><input type="radio" name="question2" value="1935">B. Vuonna 1935</p>
+            <p><input type="radio" name="question2" value="1917">C. Vuonna 1917</p>
+        </div>
     
-        <footer>
-            <p><br>OAMK Web projekti -kurssi ryhmä 14</p>
-            <p>
-              <img src="./images/www_sivut_ja_sahkoiset_esitykset_suomeksi_musta-03.png">
-            </p>
-        </footer>
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-      </body>
-    </html>
+        <div>
+            <p>3. Minä vuosina oli 2. maailman sota?</p>
+            <p><input type="radio" name="question3" value="1939-1945">A. 1939-1945</p>
+            <p><input type="radio" name="question3" value="1928-1934">B. 1928-1934</p>
+            <p><input type="radio" name="question3" value="1935-1941">C. 1935-1941</p>
+        </div>
     
+        <div>
+            <p>4. Kuka oli Suomen presidentti ennen Martti Ahtisaarta?</p>
+            <p><input type="radio" name="question4" value="Tarja">A. Tarja Halonen</p>
+            <p><input type="radio" name="question4" value="Juho">B. Juho Passikivi</p>
+            <p><input type="radio" name="question4" value="Mauno">C. Mauno Koivisto</p>
+        </div>
+    
+        <div>
+            <p>5. Milloin Suomi siirtyi euroon?</p>
+            <p><input type="radio" name="question5" value="1990">A. 1990-luvulla</p>
+            <p><input type="radio" name="question5" value="1980">B. 1980-luvulla</p>
+            <p><input type="radio" name="question5" value="1970">C. 1970-luvulla</p>
+        </div>
+
+      <input type="button" name="" value="Valmis" onclick="check()">
+      </form>
+      
+      <p id="result"></p>
+
+      <footer>
+        <p>OAMK Web projekti -kurssi ryhmä 14</p>
+        <p>
+          <img src="./images/www_sivut_ja_sahkoiset_esitykset_suomeksi_musta-03.png">
+        </p>
+    </footer>
+    <script src="historia.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
