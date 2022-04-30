@@ -11,8 +11,9 @@ h1 {
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 28px;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 div {
@@ -20,8 +21,10 @@ div {
     margin: auto; /* Keskitetään div leveyssuunnassa */
     background-color:whitesmoke;
     padding: 1em;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+
+    
 }
 
 .nav-link:hover {
@@ -39,6 +42,7 @@ a:hover {
     font-weight: bolder;
 }
 
+
 li a:hover { /* palkki hiiren päällä */
     background-color: #6cc0b8;
 }
@@ -51,8 +55,8 @@ ul { /* linkkien palkki */
 p {
     width: 100%;
     margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
     background-color: whitesmoke;
     padding: 1em;
 
@@ -61,7 +65,9 @@ p {
 
 #oamk {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 14px;
+    padding: 1em;
+    
 }
 
 footer img {
@@ -69,3 +75,4 @@ footer img {
     height: 150px;
     width: 600px;
 }
+
