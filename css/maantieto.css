@@ -10,6 +10,11 @@ h1 {
     text-align: center;
 }
 
+h3 {
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 div {
     width: 100%;
     margin: auto; /* Keskitetään div leveyssuunnassa */
