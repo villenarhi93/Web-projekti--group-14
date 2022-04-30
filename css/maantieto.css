@@ -93,9 +93,15 @@ footer img {
 }
 
 @media screen and (max-width: 768px) {
+    footer img {
+        margin-right: 20px;
+    }
+    
     #oamk {
         display: none;
     }
+
+    
 }
 
 
