@@ -70,6 +70,10 @@ ul {
     footer img {
         display: none;
     }
+    
+    h1 {
+        font-size: 3em;
+    }
 }
 
 /*Oman sivuston muokkaaminen*/
