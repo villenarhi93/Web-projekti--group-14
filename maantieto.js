@@ -32,9 +32,7 @@ function check() {
     // Palaute käyttäjälle
     
     if (score >= 5) {
-        var gold = "";
-        gold.src = "./images/gold.png";
-        document.getElementById("result").innerHTML =  "gold" + "HIENOA, SAIT KAIKKI VASTAUKSET OIKEIN!";
+        document.getElementById("result").innerHTML =  "HIENOA, SAIT KAIKKI VASTAUKSET OIKEIN!";
     }
 
     if (score >= 3 ) {
