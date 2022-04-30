@@ -11,6 +11,10 @@ function check() {
     document.getElementById("right4").style.backgroundColor = "lightgreen";
     document.getElementById("right5").style.backgroundColor = "lightgreen";
 
+    // Lisätään vastausten selostukset
+
+    document.getElementById("info1").textContent = "Oikea vastaus on Ranska."
+
     // Lähde: https://www.youtube.com/watch?v=rCVqQ8NKU2M
 
     if (document.getElementById("answer2").checked) {
