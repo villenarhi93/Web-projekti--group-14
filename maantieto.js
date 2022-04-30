@@ -5,7 +5,7 @@ function check() {
 
     // Oikeat vastaukset
 
-    const rightAnswers = ["answer2", "answer8", "answer9", "answer15", "answer17"]
+    document.getElementById("right").style.backgroundColor = "green";
 
     // Lähde: https://www.youtube.com/watch?v=rCVqQ8NKU2M
 
@@ -60,5 +60,5 @@ function check() {
        document.getElementById("result").innerHTML = "Tällä kertaa ei mennyt yhtään vastausta oikein.";
    }
 
-    
+
 }
