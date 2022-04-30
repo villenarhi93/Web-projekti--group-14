@@ -5,7 +5,11 @@ function check() {
 
     // Oikeat vastaukset
 
-    document.getElementById("right").style.backgroundColor = "green";
+    document.getElementById("right1").style.backgroundColor = "green";
+    document.getElementById("right2").style.backgroundColor = "green";
+    document.getElementById("right3").style.backgroundColor = "green";
+    document.getElementById("right4").style.backgroundColor = "green";
+    document.getElementById("right5").style.backgroundColor = "green";
 
     // Lähde: https://www.youtube.com/watch?v=rCVqQ8NKU2M
 
