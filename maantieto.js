@@ -32,18 +32,18 @@ function check() {
     // Palaute käyttäjälle
     
     if (score >= 5) {
-        document.getElementById("result").innerHTML = "HIENOA!"
+        var gold = "";
+        gold.src = "./images/gold.png";
+        document.getElementById("result").innerHTML =  "gold" + "HIENOA, SAIT KAIKKI VASTAUKSET OIKEIN!";
     }
 
-    if (score >= 4 ) {
-        document.getElementById("result").innerHTML = "HYVÄ!"
+    if (score >= 3 ) {
+        document.getElementById("result").innerHTML = "HYVÄ SUORITUS!"
     }
 
-    if (score >= 3) {
-        document.getElementById("result").innerHTML = "VIELÄ JÄI PARANNETTAVAA ENSI KERRALLE!"
-    }
+   else {
+       document.getElementById("result").innerHTML = "VIELÄ JÄI PARANNETTAVAA ENSI KERRALLE!"
+   }
 
-    if (score >= 1) {
-        document.getElementById("result").innerHTML = "PAREMPI ONNI ENSI KERRALLA!"
-    }
+    
 }
