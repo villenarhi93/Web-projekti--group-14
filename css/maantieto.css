@@ -1,4 +1,4 @@
-
+/*Sama tyyli kuin etusivulla navigointi osiossa*/
 
 h1 {
     background-color:aliceblue;
@@ -12,15 +12,9 @@ h1 {
     text-align: center;
 }
 
-h3 {
-    font-size: 22px;
-    font-family: "Libre Bodoni", serif;
-    font-weight: bold;
-}
-
 div {
     width: 100%;
-    margin: auto; /* Keskitetään div leveyssuunnassa */
+    margin: auto; 
     background-color:whitesmoke;
     padding: 1em;
     font-family: "Libre Bodoni", serif;
@@ -33,7 +27,7 @@ div {
     color: #4E4D50;
 }
 
-a:visited { /* linkin fontin väri */
+a:visited { 
     color: #4E4D50;
 
 }
@@ -45,13 +39,21 @@ a:hover {
 }
 
 
-li a:hover { /* palkki hiiren päällä */
+li a:hover { 
     background-color: #6cc0b8;
 }
 
-ul { /* linkkien palkki */
+ul { 
     background-color: #9cd4cc;
     font-size: 20px;
+}
+
+/*Oman sivuston muokkaaminen*/
+
+h3 {
+    font-size: 22px;
+    font-family: "Libre Bodoni", serif;
+    font-weight: bold;
 }
 
 p {
@@ -78,6 +80,7 @@ footer img {
     width: 600px;
 }
 
+
 #button {
     background-color: white;
     border-radius: 10px;
@@ -87,4 +90,21 @@ footer img {
 #button:hover {
     background-color: rgba(177, 172, 172, 0.705);
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+@media screen and (max-width: 768px) {
+    #oamk {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    #oamk {
+        display: block;
+        text-align: center;
+    }
+    footer img {
+        display: none;
+    }
 }
