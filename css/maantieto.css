@@ -1,3 +1,5 @@
+
+
 h1 {
     background-color:aliceblue;
     font-weight: bolder;
@@ -12,7 +14,7 @@ h1 {
 
 h3 {
     font-size: 28px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Libre Bodoni", serif;
     font-weight: bold;
 }
 
@@ -21,7 +23,7 @@ div {
     margin: auto; /* Keskitetään div leveyssuunnassa */
     background-color:whitesmoke;
     padding: 1em;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Libre Bodoni", serif;
     font-size: 18px;
 
     
@@ -55,7 +57,7 @@ ul { /* linkkien palkki */
 p {
     width: 100%;
     margin: auto;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Libre Bodoni", serif;
     font-size: 12px;
     background-color: whitesmoke;
     padding: 1em;
