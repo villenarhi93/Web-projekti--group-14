@@ -76,3 +76,13 @@ footer img {
     width: 600px;
 }
 
+#button {
+    background-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#button:hover {
+    background-color: rgba(177, 172, 172, 0.705);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
