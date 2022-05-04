@@ -13,7 +13,7 @@ function check() {
 
 
     if (document.getElementById("answer1").checked) {
-        document.getElementById("wrong1").style.backgroundColor = "red";
+        document.getElementById("wrong1").style.backgroundColor = "lightred";
     } 
     // Lähde: https://www.youtube.com/watch?v=rCVqQ8NKU2M
     // Jos vastaus on oikein näytetään myös selostus sekä tausta väri vaihdetaan
