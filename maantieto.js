@@ -11,10 +11,6 @@ function check() {
     document.getElementById("info4").textContent = "Vastaus on väärin";
     document.getElementById("info5").textContent = "Vastaus on väärin";
 
-
-    if (document.getElementsByClassName("wrong").checked) {
-        document.getElementsByClassName("wrong").style.backgroundColor = "lightred";
-    } 
     // Lähde: https://www.youtube.com/watch?v=rCVqQ8NKU2M
     // Jos vastaus on oikein näytetään myös selostus sekä tausta väri vaihdetaan
 
