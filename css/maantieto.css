@@ -1,3 +1,5 @@
+/*Sama tyyli kuin etusivulla navigointi osiossa*/
+
 h1 {
     background-color:aliceblue;
     font-weight: bolder;
@@ -12,18 +14,20 @@ h1 {
 
 div {
     width: 100%;
-    margin: auto; /* Keskitetään div leveyssuunnassa */
+    margin: auto; 
     background-color:whitesmoke;
     padding: 1em;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Libre Bodoni", serif;
+    font-size: 18px;
+
+    
 }
 
 .nav-link:hover {
     color: #4E4D50;
 }
 
-a:visited { /* linkin fontin väri */
+a:visited { 
     color: #4E4D50;
 
 }
@@ -34,21 +38,58 @@ a:hover {
     font-weight: bolder;
 }
 
-li a:hover { /* palkki hiiren päällä */
+
+li a:hover { 
     background-color: #6cc0b8;
 }
 
-ul { /* linkkien palkki */
+ul { 
     background-color: #9cd4cc;
     font-size: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    footer img {
+        margin-right: 20px;
+    }
+    
+    #oamk {
+        display: none;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 576px) {
+    #oamk {
+        display: block;
+        text-align: center;
+    }
+    footer img {
+        display: none;
+    }
+    
+    h1 {
+        font-size: 42px;
+    }
+}
+
+/*Oman sivuston muokkaaminen*/
+
+h3 {
+    font-size: 22px;
+    font-family: "Libre Bodoni", serif;
+    font-weight: bold;
 }
 
 p {
     width: 100%;
     margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    background-color: #4FC1E8;
+    font-family: "Libre Bodoni", serif;
+    font-size: 12px;
+    background-color: whitesmoke;
     padding: 1em;
 
 }
@@ -56,7 +97,9 @@ p {
 
 #oamk {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 14px;
+    padding: 1em;
+    
 }
 
 footer img {
@@ -64,3 +107,16 @@ footer img {
     height: 150px;
     width: 600px;
 }
+
+
+#button {
+    background-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#button:hover {
+    background-color: rgba(177, 172, 172, 0.705);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+

@@ -7,9 +7,11 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    
     <title>Tietovisat</title>
     <link rel="stylesheet" href="./css/maantieto.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Libre+Bodoni">
+    <script src="https://kit.fontawesome.com/e49af33836.js" crossorigin="anonymous"></script>
     </head>
   <body>
   
@@ -52,18 +54,20 @@
             <form>
                 <input type="radio" name="question1" id="answer1" value="Saksa">
                 <label for="answer1"> Saksa</label><br>
-                <input type="radio" name="question1" id="answer2" value="Ranska">
-                <label for="answer2"> Ranska</label><br>
+                <span id="right1"><input type="radio" name="question1" id="answer2" value="Ranska">
+                <label for="answer2"> Ranska</label><br></span>
                 <input type="radio" name="question1" id="answer3" value="Italia">
                 <label for="answer3"> Italia</label><br>
                 <input type="radio" name="question1" id="answer4" value="Espanja">
                 <label for="answer4"> Espanja</label><br>
             </form>
 
+            <span id="info1"></span>
+
           </div>
           <div class="col-md-6">
             <img src="./images/Inkedistockphoto-531229545-170667a_LI.jpg" class="img-fluid" alt="">
-            <p>Lähde: https://fi.vector.me/</p>
+            <a href="https://fi.vector.me/"><p><i class="fa-solid fa-image"></i></p></a>
           </div>
         </div>
       </div>
@@ -74,19 +78,24 @@
           <div class="col-md-6">
             <h3>2. Minkä Euroopan valtion lippu?</h3>
 
-            <input type="radio" name="question2" id="answer5" value="Itävalta">
-            <label for="answer5"> Itävalta</label><br>
-            <input type="radio" name="question2" id="answer6" value="Alankomaat">
-            <label for="answer6"> Alankomaat</label><br>
-            <input type="radio" name="question2" id="answer7" value="Sveitsi">
-            <label for="answer7"> Sveitsi</label><br>
-            <input type="radio" name="question2" id="answer8" value="Belgia">
-            <label for="answer8"> Belgia</label><br>
+            <form>
+              <input type="radio" name="question2" id="answer5" value="Itävalta">
+              <label for="answer5"> Itävalta</label><br>
+              <input type="radio" name="question2" id="answer6" value="Alankomaat">
+              <label for="answer6"> Alankomaat</label><br>
+              <input type="radio" name="question2" id="answer7" value="Sveitsi">
+              <label for="answer7"> Sveitsi</label><br>
+              <span  id="right2"><input type="radio" name="question2" id="answer8"  value="Belgia">
+              <label for="answer8"> Belgia</label><br></span>
+            </form>
+
+            <span id="info2"></span>
+
           </div>
 
           <div class="col-md-6">
             <img src="./images/belgium-g7bafcc618_640.png" class="img-fluid" alt="">
-            <p>Lähde: https://pixabay.com/</p>
+            <a href="https://pixabay.com/"><p><i class="fa-solid fa-image"></i></p></a>
           </div>
         </div>
       </div>
@@ -96,18 +105,23 @@
           <div class="col-md-6">
             <h3>3. Mikä Euroopan pääkaupunki on merkattu karttaan punaisella täplällä?</h3>
 
-            <input type="radio" name="question3" id="answer9" value="Lissabon">
-            <label for="answer9"> Lissabon</label><br>
-            <input type="radio" name="question3" id="answer10" value="Madrid">
-            <label for="answer10"> Madrid</label><br>
-            <input type="radio" name="question3" id="answer11" value="Porto">
-            <label for="answer11"> Porto</label><br>
-            <input type="radio" name="question3" id="answer12" value="Barcelona">
-            <label for="answer12"> Barcelona</label><br>
+            <form>
+              <span id="right3"><input type="radio" name="question3" id="answer9" value="Lissabon">
+              <label for="answer9"> Lissabon</label><br></span>
+              <input type="radio" name="question3" id="answer10" value="Madrid">
+              <label for="answer10"> Madrid</label><br>
+              <input type="radio" name="question3" id="answer11" value="Porto">
+              <label for="answer11"> Porto</label><br>
+              <input type="radio" name="question3" id="answer12" value="Barcelona">
+              <label for="answer12"> Barcelona</label><br>
+            </form>
+
+            <span id="info3"></span>
+
           </div>
           <div class="col-md-6">
             <img src="./images/InkedPortugal_Spain_location_map_LI.jpg" class="img-fluid" alt="">
-            <p>Lähde: https://commons.wikimedia.org/</p>
+            <a href="https://commons.wikimedia.org/"><p><i class="fa-solid fa-image"></i></p></a>
           </div>
         </div>
       </div>
@@ -115,21 +129,26 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h3>4. Mikä Euroopan meri?</h3>
+            <h3>4. Mikä Euroopan meri kyseessä?</h3>
 
-            <input type="radio" name="question4" id="answer13" value="Itämeri">
-            <label for="answer13"> Itämeri</label><br>
-            <input type="radio" name="question4" id="answer14" value="Välimeri">
-            <label for="answer14"> Välimeri</label><br>
-            <input type="radio" name="question4" id="answer15" value="Mustameri">
-            <label for="answer15"> Mustameri</label><br>
-            <input type="radio" name="question4" id="answer16" value="Pohjanmeri">
-            <label for="answer16"> Pohjanmeri</label><br>
+            <form>
+              <input type="radio" name="question4" id="answer13" value="Itämeri">
+              <label for="answer13"> Itämeri</label><br>
+              <input type="radio" name="question4" id="answer14" value="Välimeri">
+              <label for="answer14"> Välimeri</label><br>
+              <span id="right4"><input type="radio" name="question4" id="answer15"  value="Mustameri">
+              <label for="answer15"> Mustameri</label><br></span>
+              <input type="radio" name="question4" id="answer16" value="Pohjanmeri">
+              <label for="answer16"> Pohjanmeri</label><br>
+              </form>
+
+              <span id="info4"></span>
+
           </div>
 
           <div class="col-md-6">
             <img src="./images/istockphoto-824981866-612x612.jpg" class="img-fluid" alt="">
-            <p>Lähde: https://www.istockphoto.com/</p>
+            <a href="https://www.istockphoto.com/"><p><i class="fa-solid fa-image"></i></p></a>
           </div>
         </div>
       </div>
@@ -139,18 +158,23 @@
           <div class="col-md-6">
             <h3>5. Mikä on Euroopan pisin joki?</h3>
 
-            <input type="radio" name="question5" id="answer17" value="Volga">
-            <label for="answer17"> Volga</label><br>
-            <input type="radio" name="question5" id="answer18" value="Rein">
-            <label for="answer18"> Rein</label><br>
-            <input type="radio" name="question5" id="answer19" value="Tonava">
-            <label for="answer19"> Tonava</label><br>
-            <input type="radio" name="question5" id="answer20" value="Seine">
-            <label for="answer20"> Seine</label><br>
+            <form>
+              <span id="right5"><input type="radio" name="question5" id="answer17" value="Volga">
+              <label for="answer17"> Volga</label><br></span>
+              <input type="radio" name="question5" id="answer18" value="Rein">
+              <label for="answer18"> Rein</label><br>
+              <input type="radio" name="question5" id="answer19" value="Tonava">
+              <label for="answer19"> Tonava</label><br>
+              <input type="radio" name="question5" id="answer20" value="Seine">
+              <label for="answer20"> Seine</label><br>
+            </form>
+
+            <span id="info5"></span>
+
           </div>
         <div class="col-md-6">
             <img src="./images/volga-river-4922233_960_720.jpg" class="img-fluid" alt="">
-            <p>Lähde: https://pixabay.com/</p>
+            <a href="https://pixabay.com/"><p><i class="fa-solid fa-image"></i></p></a>
           </div>
         </div>
       </div>
@@ -159,12 +183,12 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <button onclick="check()">Tarkista vastaukset</button>
+            <button id="button" onclick="check()">Tarkista vastaukset</button>
           </div>
 
       <!-- Vastauksen tulostus-->
           <div class="col-md-6">
-            <span id ="result">Vastausten oikea määrä ja palaute käyttäjälle</p>
+            <span id ="result"></p>
           </div>
         </div>
       </div>
