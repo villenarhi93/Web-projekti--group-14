@@ -1,0 +1,136 @@
+/*Sama tyyli kuin etusivulla navigointi osiossa*/
+
+h1 {
+    background-color:aliceblue;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 5em;
+    text-shadow: 3px 3px 3px black;
+    color: #4FC1E8;
+    margin: 15px;
+    text-transform: none;
+    text-align: center;
+}
+
+div {
+    width: 100%;
+    margin: auto; 
+    background-color:rgb(62, 148, 159);
+    padding: 1em;
+    font-family: "Libre Bodoni", serif;
+    font-size: 30px;
+
+    
+}
+
+.nav-link:hover {
+    color: #4E4D50;
+}
+
+a:visited { 
+    color: #4E4D50;
+
+}
+
+a:hover {
+    color: #4E4D50;
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+
+li a:hover { 
+    background-color: #6cc0b8;
+}
+
+ul { 
+    background-color: #9cd4cc;
+    font-size: 20px;
+}
+
+/*Oman sivuston muokkaaminen*/
+
+body {
+
+    margin-top: auto;
+    align-content: space-around;
+    float: center;
+    background: #4FC1E8;
+    background-image: repeating-linear-gradient();
+    font-family: "Courier New", 'Courier New', Courier, monospace;
+    
+}
+
+.quiz-container {
+    background: #82aaad;
+    background-image: repeating-linear-gradient();
+    width: 700px;
+
+}
+
+.quiz-header {
+    padding: 6rem;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: left;
+    margin: 10;
+}
+
+ul {
+    list-style-type: none;
+    padding: 1;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    background: #6e35d7;
+    color: aliceblue;
+    border: none;
+    display: block;
+    width: 36.8%;
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 1rem;
+    position: fixed; 
+    right: 30%;
+    bottom: 50;
+    width: 40%;
+    background-color: rgb(0, 4, 255);
+    color: rgb(212, 23, 23);
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 4, 255);
+    color: rgb(212, 23, 23);
+    text-align: center;
+ }
+
+
+@media screen and (max-width: 768px) {
+    footer img {
+        margin-right: 20px;
+    }
+
+    
+
+@media screen and (max-width: 576px) {
+   
+    footer img {
+        display: none;
+    }
+    
+    h1 {
+        font-size: 42px;
+    }
+  }
+}
