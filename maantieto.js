@@ -5,7 +5,6 @@ function check() {
 
     // Oikeat vastaukset
 
-    document.getElementById("right1").style.backgroundColor = "lightgreen";
     document.getElementById("right2").style.backgroundColor = "lightgreen";
     document.getElementById("right3").style.backgroundColor = "lightgreen";
     document.getElementById("right4").style.backgroundColor = "lightgreen";
@@ -24,6 +23,8 @@ function check() {
     if (document.getElementById("answer2").checked) {
         score++
         document.getElementById("info1").textContent = "Oikea vastaus on Ranska. Ranska on valtio, joka koostuu Länsi-Euroopassa sijaitsevasta ydinalueesta sekä useista merentakaisista alueista. Merentakaiset alueet mukaan luettuna Ranskan pinta-ala on 643 801 neliökilometriä ja väkiluku on noin 67,5 miljoonaa. Ranskan eurooppalainen ydinalue, jota kutsutaan termillä France métropolitaine, sijaitsee lauhkealla ilmastovyöhykkeellä lukuun ottamatta aivan eteläisintä seutua, jossa vallitsee välimerenilmasto. Euroopan Ranskan pinta-ala on 551 500 neliökilometriä, joten se on maanosansa kolmanneksi laajin valtio Venäjän ja Ukrainan jälkeen.";
+        document.getElementById("right1").style.backgroundColor = "lightgreen";
+
         ;
     }
 
