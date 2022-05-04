@@ -7,20 +7,22 @@ function check() {
   var result=document.getElementById("result");
   var quiz= document.getElementById("quiz");
 
-  if (q1=="1910-1914") {c++}
-  if (q2=="1917") {c++}
-  if (q3=="1939-1945") {c++}
-  if (q4=="Mauno") {c++}
-  if (q5=="1990") {c++}
+  let score = 0;
+
+  if (q1=="1910-1914") {score++}
+  if (q2=="1917") {score++}
+  if (q3=="1939-1945") {score++}
+  if (q4=="Mauno") {score++}
+  if (q5=="1990") {score++}
 
   if (quiz = 0) {
-    document.getElementById("result") = "Yritä uudelleen!"
+    document.getElementById("result").innerHTML = "Yritä uudelleen!"
   }
     if (quiz <= 3) {
-    document.getElementById("result") = "Pisteesi on " + result + " Yritä uudelleen!";
+    document.getElementById("result").innerHTML = "Pisteesi on " + score + " Yritä uudelleen!";
 
   } else {
-    document.getElementById("result") = "Pisteesi on " + result + " Hienoa työtä!";
+    document.getElementById("result").innerHTML = "Pisteesi on " + score + " Hienoa työtä!";
   }
  
 }
