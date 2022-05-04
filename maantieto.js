@@ -12,7 +12,7 @@ function check() {
     document.getElementById("info5").textContent = "Vastaus on väärin";
 
 
-    if (document.getElementById("wrong1").checked) {
+    if (document.getElementById("answer1").checked) {
         document.getElementById("wrong1").style.backgroundColor = "red";
     } 
     // Lähde: https://www.youtube.com/watch?v=rCVqQ8NKU2M
