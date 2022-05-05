@@ -3,14 +3,6 @@ function check() {
 
     var score = 0;
 
-    // Mikäli vastaus on väärin ilmoitetaan se käyttäjälle
-
-    document.getElementById("info1").textContent = "Vastaus on väärin";
-    document.getElementById("info2").textContent = "Vastaus on väärin";
-    document.getElementById("info3").textContent = "Vastaus on väärin";
-    document.getElementById("info4").textContent = "Vastaus on väärin";
-    document.getElementById("info5").textContent = "Vastaus on väärin";
-
     // Lähde: https://www.youtube.com/watch?v=rCVqQ8NKU2M
     // Jos vastaus on oikein näytetään myös selostus sekä tausta väri vaihdetaan
 
