@@ -16,13 +16,13 @@ function check() {
   if (q5=="1990") {score++}
 
   if (quiz = 0) {
-    document.getElementById("result").innerHTML = "Yritä uudelleen!"
+    document.getElementById("result").innerHTML = "Yritä uudelleen!";
   }
     if (quiz <= 3) {
-    document.getElementById("result").innerHTML = "Pisteesi on " + score + " Yritä uudelleen!";
+    document.getElementById("result").innerHTML = "Pisteesi on " + score + "/5" + " Yritä uudelleen!";
 
   } else {
-    document.getElementById("result").innerHTML = "Pisteesi on " + score + " Hienoa työtä!";
+    document.getElementById("result").innerHTML = "Pisteesi on " + score + "/5" + " Hienoa työtä!";
   }
  
 }
