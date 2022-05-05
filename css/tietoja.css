@@ -82,10 +82,6 @@ footer img {
         display: none;
     }
 
-    div img {
-        display: none;
-    }
-
     
 }
 
@@ -95,12 +91,7 @@ footer img {
         display: block;
         text-align: center;
     }
-    
     footer img {
-        display: none;
-    }
-
-    div img {
         display: none;
     }
 }
