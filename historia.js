@@ -4,8 +4,7 @@ function check() {
   var q3=document.quiz.question3.value;
   var q4=document.quiz.question4.value;
   var q5=document.quiz.question5.value;
-  var result=document.getElementById("result");
-  var quiz= document.getElementById("quiz");
+  var result = document.getElementById("result");
 
   let score = 0;
 
@@ -15,10 +14,10 @@ function check() {
   if (q4=="Mauno") {score++}
   if (q5=="1990") {score++}
 
-  if (quiz = 0) {
+  if (score == 0) {
     document.getElementById("result").innerHTML = "Yritä uudelleen!";
   }
-    if (quiz <= 3) {
+    else if (score <= 3) {
     document.getElementById("result").innerHTML = "Pisteesi on " + score + "/5" + " Yritä uudelleen!";
 
   } else {
